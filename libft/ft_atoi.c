@@ -6,20 +6,11 @@
 /*   By: dkramer <dkramer@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/25 12:01:12 by dagmarkrame   #+#    #+#                 */
-/*   Updated: 2021/10/18 05:58:25 by dkramer       ########   odam.nl         */
+/*   Updated: 2021/10/18 06:05:11 by dkramer       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_overflow(long long int nmb, int a, char c)
-{
-	if (a == 1 && c > 7 + 48)
-		return (-1);
-	if (a == -1 && c > 8 + 48)
-		return (0);
-	return (nmb);
-}
-
-int		ft_atoi(const char *str) hi
+int		ft_atoi(const char *str)
 {
 	long long int	nmb;
 	int				i;
