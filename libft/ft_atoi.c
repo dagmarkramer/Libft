@@ -6,7 +6,7 @@
 /*   By: dkramer <dkramer@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/25 12:01:12 by dagmarkrame   #+#    #+#                 */
-/*   Updated: 2020/11/15 15:18:55 by dkramer       ########   odam.nl         */
+/*   Updated: 2021/10/18 05:58:25 by dkramer       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int		ft_overflow(long long int nmb, int a, char c)
 	return (nmb);
 }
 
-int		ft_atoi(const char *str)
+int		ft_atoi(const char *str) hi
 {
 	long long int	nmb;
 	int				i;
