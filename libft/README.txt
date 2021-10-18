@@ -6,6 +6,9 @@ important functions for Codam's cursus
 
 it is my first Codam project
 
+main.c is not part of project
+
+
 UTILISATION
 ------------
 
