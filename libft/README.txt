@@ -12,4 +12,5 @@ main.c is not part of project
 UTILISATION
 ------------
 
-run 'gcc *.c && ./a.out' to compile and execute
+run 'make' to make the library
+run 'gcc libft.a main.c && ./a.out' to compile and execute
